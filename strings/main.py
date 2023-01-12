@@ -49,5 +49,5 @@ chant = (f'{chant_single}' * first_name_len) [:-1]
 print(chant)
 
 #2.6 Good Chant
-good_chant = (chant != " ")
+good_chant = (chant[:-1] != " ")
 print(good_chant)
